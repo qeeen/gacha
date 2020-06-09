@@ -174,7 +174,7 @@ function capsuleAnimation(objIndex) {
 		glass_shad.setUniform("u_resolution", [width, height]);
 
 		translate(50,0-capsuleHeight,0); rotateX(radians(varyingNum*2)); rotateZ(radians(varyingNum*4));
-		sphere(6, 16, 4); 
+		sphere(12, 16, 4); 
 		resetShader();
 		if(objIndex < 26){
 			texture(o[objIndex-1]);
